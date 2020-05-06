@@ -1,0 +1,166 @@
+/*
+
+* Override Pages default styles or create your own styles here
+
+*/
+
+.pointer {
+    cursor: pointer;
+}
+
+.modal {
+    z-index: 99999;
+}
+
+.blade-datatable .blade-datatable-paginate {
+    float: right;
+    margin: 0;
+    white-space: nowrap;
+    text-align: right;
+}
+
+.blade-datatable-footer {
+    width: 100%;
+}
+
+.row.blade-datatable-footer>div {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    width: 100%;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: reverse;
+    -ms-flex-direction: row-reverse;
+    flex-direction: row-reverse;
+}
+
+.blade-datatable .blade-datatable-paginate ul>li {
+    display: inline-block;
+    padding-left: 0;
+    font-size: 11px;
+}
+
+.blade-datatable .blade-datatable-paginate ul>li>a {
+    padding: 5px 10px;
+    color: #626262;
+    opacity: .35;
+    -webkit-transition: opacity .3s ease;
+    transition: opacity .3s ease;
+}
+
+.blade-datatable .blade-datatable-paginate ul>li>a:hover {
+    opacity: .65;
+}
+
+.blade-datatable .blade-datatable-paginate ul>li.active>a {
+    font-weight: 700;
+    color: #626262;
+    opacity: 1;
+}
+
+.blade-datatable .blade-datatable-paginate .paginate_button {
+    display: inline-block;
+}
+
+.blade-datatable .blade-datatable-paginate .paginate_button > a {
+}
+
+.blade-datatable .blade-datatable-info {
+    padding-top: 8px;
+    white-space: nowrap;
+    clear: none;
+    font-size: 12px;
+    padding: 0 33px;
+    color: #626262;
+}
+
+.blade-datatable .blade-datatable-paginate, .blade-datatable-info {
+    margin-top: 25px!important;
+}
+
+.blade-datatable-sort{
+    width: auto ;
+    text-align:left ;
+    float:left;
+}
+.blade-datatable-sort .select{
+    line-height: 1.5;
+    display: inline-block!important;
+    vertical-align: middle;
+}
+.blade-datatable-sort p {
+    padding-top:10px;
+    padding-left:0px;
+    display: inline-block!important;
+    vertical-align: middle;
+}
+.card-header a:not(.btn) {
+    color: #000000 !important;
+    opacity:1 !important;
+}
+
+.dropdown-menu {
+    border: 1px  #000;
+}
+
+/*  */
+
+
+.card-action {
+
+}
+
+.row-button-action > .act-left {
+    padding-right: 5px;
+}
+
+.row-button-action > .act-right {
+    padding-left: 5px;
+}
+
+/*  */
+
+.fv-plugins-bootstrap:not(.form-inline) label ~ .fv-plugins-icon {
+    top: 15px;
+}
+
+.form-group.form-group-default.form-group-default-select2 > .fv-plugins-message-container {
+    padding-left: 12px;
+}
+
+/*  */
+.page-sidebar .sidebar-menu .menu-items > li > a > .title {
+    overflow: unset;
+    width: 100%;
+}
+.page-sidebar .sidebar-menu .menu-items li > a {
+    width: 78%;
+}
+
+.btn-table-action {
+    margin-left: 3px;
+    margin-right: 3px;
+}
+
+.show-notification-unapproved {
+    background: #f00;
+    padding:5px 8px 5px 8px;
+    color: #fff;
+    border-radius: 20px;
+    margin-left: 5px;
+}
+
+.show-notification-unread {
+    background: #f00;
+    padding:5px 8px 5px 8px;
+    color: #fff;
+    border-radius: 20px;
+    margin-left: 5px;
+}
+
+.hide-notification {
+    display: none;
+}

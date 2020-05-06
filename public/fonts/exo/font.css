@@ -1,0 +1,16 @@
+@font-face {
+    font-family: ExoBlackItalic;
+    src: url("/fonts/exo/Exo-Black-Italic.otf") format("opentype");
+}
+
+@font-face {
+    font-family: ExoBold;
+    font-weight: bold;
+    src: url("/fonts/exo/Exo-Bold.otf") format("opentype");
+}
+
+@font-face {
+    font-family: ExoMedium;
+    font-weight: bold;
+    src: url("/fonts/exo/Exo-Medium.otf") format("opentype");
+}

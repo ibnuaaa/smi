@@ -1,0 +1,14 @@
+@font-face {
+    font-family: Neo;
+    src: url("/fonts/neo/Neo_Sans.ttf") format("opentype");
+}
+
+@font-face {
+    font-family: NeoBold;
+    src: url("/fonts/neo/Neo_Sans_Bold.ttf") format("opentype");
+}
+
+@font-face {
+    font-family: NeoMedium;
+    src: url("/fonts/neo/Neo_Sans_Medium.ttf") format("opentype");
+}
