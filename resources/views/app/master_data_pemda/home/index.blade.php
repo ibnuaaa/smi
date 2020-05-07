@@ -88,10 +88,7 @@
                                ID
                             </th>
                             <th style="position: relative;cursor: pointer" onClick="sortBy('title', '' )">
-                               Nama
-                            </th>
-                            <th style="position: relative;cursor: pointer" onClick="sortBy('content', '' )">
-                               Deskripsi
+                               PEMDA
                             </th>
                             <th style="position: relative;cursor: pointer" onClick="sortBy('created_at', '' )">
                                created_at
@@ -107,10 +104,7 @@
                                <p>1</p>
                             </td>
                             <td class="v-align-middle ">
-                               <p>Aceh</p>
-                            </td>
-                            <td class="v-align-middle ">
-                               <p>-</p>
+                               <p>DKI JAKARTA</p>
                             </td>
                             <td class="v-align-middle ">
                                <p></p>

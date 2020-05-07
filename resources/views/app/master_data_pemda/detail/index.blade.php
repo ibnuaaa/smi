@@ -25,18 +25,69 @@
                 </div>
                 <div class="row">
                     <div class="col-md-2">
-                        Title
+                        Pemda
                     </div>
                     <div class="col-md-10">
-                        Test
+                        DKI JAKARTA
                     </div>
                 </div>
                 <div class="row">
                     <div class="col-md-2">
-                        Content
+                        PIC Contact
                     </div>
                     <div class="col-md-10">
-                        Test
+                        Mulyadi
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-2">
+                        Email
+                    </div>
+                    <div class="col-md-10">
+                        lalalal@lala.com
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-2">
+                        Phone Number
+                    </div>
+                    <div class="col-md-10">
+                        +6285656565656
+                    </div>
+                </div>
+            </div>
+            <div class="card-body">
+                <div class="row">
+                    <div class="col-md-12">
+                        <h2 class="font-montserrat all-caps hint-text">History Pengajuan Pinjaman</h2>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-2">
+                        <b>No</b>
+                    </div>
+                    <div class="col-md-4">
+                        <b>Tanggal Pengajuan</b>
+                    </div>
+                    <div class="col-md-4">
+                        <b>Nama Proyek</b>
+                    </div>
+                    <div class="col-md-2">
+                        <b>Status</b>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-2">
+                        1
+                    </div>
+                    <div class="col-md-4">
+                        20 Januari 2020
+                    </div>
+                    <div class="col-md-4">
+                        Pembangunan Jembatan
+                    </div>
+                    <div class="col-md-2">
+                        Diproses
                     </div>
                 </div>
             </div>
