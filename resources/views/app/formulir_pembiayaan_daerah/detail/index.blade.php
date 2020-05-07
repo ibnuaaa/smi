@@ -33,6 +33,22 @@
                 </div>
                 <div class="row">
                     <div class="col-md-2">
+                        Nama Proyek
+                    </div>
+                    <div class="col-md-10">
+                        Pengembangan Jembatan Aceh 2020
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-2">
+                        Sektor
+                    </div>
+                    <div class="col-md-10">
+                        Jembatan
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-2">
                         Nilai Permohonan
                     </div>
                     <div class="col-md-10">
@@ -53,6 +69,14 @@
                     </div>
                     <div class="col-md-10">
                         24 Bulan
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-2">
+                        STATUS tahapan proyek
+                    </div>
+                    <div class="col-md-10">
+                        <b>Telah di SUBMIT menunggu REVIEW</b>
                     </div>
                 </div>
                 <div class="row">
@@ -171,6 +195,16 @@
                             </tr>
                         </table>
                     </div>
+                </div>
+                <div class="row">
+                    <br>&nbsp;
+                </div>
+                <div class="row">
+                    <div class="col-md-12">
+                        <a class="btn btn-success" href="#">UPDATE TAHAPAN PROYEK</a>
+                        <a class="btn btn-success" href="#">FEEDBACK</a>
+                    </div>
+
                 </div>
             </div>
 
