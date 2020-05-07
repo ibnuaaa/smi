@@ -18,7 +18,7 @@
                    <div class="row blade-datatable-header">
                       <div class="col-12 blade-datatable-header-panel">
                          <div class="row">
-                            <div class="col-8">
+                            <div class="col-3">
                                <div class="blade-datatable-sort">
                                   <p>Show</p>
                                   <div class="dropdown dropdown-default">
@@ -34,6 +34,13 @@
                                   </div>
                                   <p>Entries</p>
                                </div>
+                            </div>
+                            <div class="col-5">
+                                <div class="input-daterange input-group" id="datepicker-range">
+                                  <input type="text" class="input-sm form-control" name="start" value="2020-01-01" />
+                                  <div class="input-group-addon"> s/d </div>
+                                  <input type="text" class="input-sm form-control" name="end"  value="2020-01-01"/>
+                                </div>
                             </div>
                             <div class="col-4">
                                <form action="/information">

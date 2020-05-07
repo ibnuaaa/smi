@@ -47,10 +47,10 @@
             <div class="col-12">
                 <div class="card card-default card-action">
                     <div class="card-body">
-                        <button data-url-next="{{ UrlPrevious(url('/information')) }}" class="saveAction btn btn-block btn-success btn-cons m-b-10">
+                        <a href="/" class="btn btn-success btn-cons m-b-10">
                             <i class="fas fa-save"></i>
                             &nbsp;SUBMIT
-                        </button>
+                        </a>
                     </div>
                 </div>
             </div>
