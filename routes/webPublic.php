@@ -20,7 +20,6 @@ $router->get('/login', ['as' => 'login', function () {
 }, 'middleware' => ['AuthenticatePage']]);
 
 
-$router->get('/qrpdf/{id}', 'CMS\SuratMasuk\SuratMasukController@DownloadPdfFromQr');
-// $router->get('/captchaInfo', 'CMS\SuratMasuk\SuratMasukController@DownloadPdfFromQr');
+$router->get('/register', 'CMS\Register\RegisterController@Home');
 
 $router->get('/pdf/{encoded_url}', 'GetPdf\GetPdfController@GetPdf');
