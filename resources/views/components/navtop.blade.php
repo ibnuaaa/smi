@@ -7,21 +7,8 @@
         <!-- END MOBILE SIDEBAR TOGGLE -->
         <div class="">
             <div class="brand inline  m-l-10 text-center">
-                <img src="/assets/img/logo-kemendagri.png" alt="logo" data-src="/assets/img/logo-kemendagri.png" data-src-retina="/assets/img/logo-kemendagri.png" height="50" class="d-none d-lg-block">
+                <h1>SMI</h1>
             </div>
-
-
-
-
-
-
-
-
-
-
-
-
-
 
         </div>
         <div class="d-flex align-items-center">
@@ -43,17 +30,10 @@
                       <!-- START Notification Item-->
                       <div class="notification-item unread clearfix">
 
-
-
                         <!-- START Notification Item-->
                         <div id="list_notification">
-
                         </div>
                         <!-- END Notification Item-->
-
-
-
-
                         <!-- START Notification Item Right Side-->
                         <div class="option" data-toggle="tooltip" data-placement="left" title="mark as read">
                           <a href="#" class="mark"></a>
