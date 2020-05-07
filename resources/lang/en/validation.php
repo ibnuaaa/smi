@@ -135,7 +135,8 @@ return [
     ],
 
     'login' => [
-        'username' => 'NIP Anda Tidak Ditemukan',
+        'username' => 'Username / Email Tidak Ditemukan',
+        'need_approval' => 'Akun Masih dalam Proses Persetujuan Admin',
         'invalid_password' => 'Maaf, Password Anda Salah'
     ],
 
