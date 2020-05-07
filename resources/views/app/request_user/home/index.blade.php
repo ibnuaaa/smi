@@ -81,7 +81,7 @@
                                <p>1</p>
                             </td>
                             <td class="v-align-middle ">
-                               <p>DKI JAKARTA</p>
+                               <p>JAWA BARAT</p>
                             </td>
                             <td class="v-align-middle ">
                                <p>Joko Susilo</p>
@@ -94,9 +94,9 @@
                             </td>
                             <td class="v-align-middle">
                                <div class="btn-group">
-                                  <a href="/request_user/1" class="btn btn-info"><i class="fas fa-eye"></i></a>
-                                  <a href="#modalApprove" data-toggle="modal" class="btn btn-success">Approve</a>
-                                  <a href="#modalDelete" data-toggle="modal" class="btn btn-danger">Delete</a>
+                                  <a href="/request_user/1" class="btn btn-info"><i class="fas fa-eye"></i></a>&nbsp;
+                                  <a href="#modalApprove" data-toggle="modal" class="btn btn-success">Approve</a>&nbsp;
+                                  <a href="#modalDelete" data-toggle="modal" class="btn btn-danger">Reject</a>
                                </div>
                             </td>
                          </tr>
@@ -118,9 +118,7 @@
                             </td>
                             <td class="v-align-middle">
                                <div class="btn-group">
-                                  <a href="/request_user/1" class="btn btn-info"><i class="fas fa-eye"></i></a>
-                                  <a href="#modalApprove" data-toggle="modal" class="btn btn-success">Approve</a>
-                                  <a href="#modalDelete" data-toggle="modal" class="btn btn-danger">Delete</a>
+                                  <a href="/request_user/1" class="btn btn-info"><i class="fas fa-eye"></i></a>&nbsp;
                                </div>
                             </td>
                          </tr>
@@ -191,8 +189,8 @@
                     <div class="modal-header clearfix text-left">
                         <button type="button" class="close" data-dismiss="modal" aria-hidden="true"><i class="pg-close fs-14"></i>
                         </button>
-                        <h5>Delete <span class="semi-bold">User</span></h5>
-                        <p class="p-b-10">Are you sure you want to delete this entries?</p>
+                        <h5>REJECT <span class="semi-bold">User</span></h5>
+                        <p class="p-b-10">Are you sure you want to REJECT this entries?</p>
                     </div>
                     <div class="modal-body">
                         <div class="row">

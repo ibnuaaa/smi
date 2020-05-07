@@ -100,7 +100,7 @@
                             </td>
                             <td class="v-align-middle">
                                <div class="btn-group">
-                                  <a href="/pembiayaan_daerah/1" class="btn btn-info"><i class="fas fa-eye"></i></a>
+                                  <a href="/pembiayaan_daerah/1" class="btn btn-info"><i class="fas fa-eye"></i></a>&nbsp;
                                   <a href="#modalDelete" data-toggle="modal" data-record-id="1" data-record-name="" class="btn btn-danger">
                                   <i class="fas fa-trash-alt"></i>
                                   </a>
@@ -128,7 +128,7 @@
                             </td>
                             <td class="v-align-middle">
                                <div class="btn-group">
-                                  <a href="/pembiayaan_daerah/1" class="btn btn-info"><i class="fas fa-eye"></i></a>
+                                  <a href="/pembiayaan_daerah/1" class="btn btn-info"><i class="fas fa-eye"></i></a>&nbsp;
                                   <a href="#modalDelete" data-toggle="modal" data-record-id="1" data-record-name="" class="btn btn-danger">
                                   <i class="fas fa-trash-alt"></i>
                                   </a>
@@ -156,7 +156,7 @@
                             </td>
                             <td class="v-align-middle">
                                <div class="btn-group">
-                                  <a href="/pembiayaan_daerah/1" class="btn btn-info"><i class="fas fa-eye"></i></a>
+                                  <a href="/pembiayaan_daerah/1" class="btn btn-info"><i class="fas fa-eye"></i></a>&nbsp;
                                   <a href="#modalDelete" data-toggle="modal" data-record-id="1" data-record-name="" class="btn btn-danger">
                                   <i class="fas fa-trash-alt"></i>
                                   </a>
