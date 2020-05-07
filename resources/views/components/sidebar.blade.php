@@ -35,6 +35,8 @@
     <div class="sidebar-menu">
         <!-- BEGIN SIDEBAR MENU ITEMS-->
         <ul class="menu-items">
+
+
             <li class="m-t-0 ">
                 <a href="{!! url('/'); !!}" class="detailed">
                     <span class="title">Home</span>
@@ -49,6 +51,8 @@
                 <span class="icon-thumbnail"><i class="fas fa-file"></i></span>
             </li>
 
+
+            @if (MyAccount()->position_id != 1)
             <li class="m-t-0 ">
                 <a href="{!! url('/master_data_pemda'); !!}" class="detailed">
                     <span class="title">Master Data Pemda</span>
@@ -194,6 +198,7 @@
                     </li>
                 </ul>
             </li>
+            @endif
 
             <li class="open active">
                 <a href="{!! url('/logout'); !!}" class="detailed">
