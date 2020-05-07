@@ -10,18 +10,14 @@
                 <div class="card card-default">
                     <div class="card-header ">
                         <div class="card-title">
-                            Data Pemda
+                            Data Provinsi
                         </div>
                     </div>
                     <div class="card-body">
                         <form autocomplete="off" id="newUserForm">
                             <div class="form-group form-group-default required ">
-                                <label>Judul Informasi</label>
+                                <label>Provinsi</label>
                                 <input name="title" value="" class="form-control" type="text" required>
-                            </div>
-                            <div class="form-group form-group-default required ">
-                                <label>Isi informasi</label>
-                                <div id="editor"></div>
                             </div>
                         </form>
                     </div>
@@ -30,11 +26,11 @@
             <div class="col-3">
                 <div class="card card-default card-action">
                     <div class="card-body">
-                        <button data-url-next="{{ UrlPrevious(url('/master_data_pemda')) }}" class="saveAction btn btn-block btn-success btn-cons m-b-10">
+                        <button data-url-next="{{ UrlPrevious(url('/province')) }}" class="saveAction btn btn-block btn-success btn-cons m-b-10">
                             <i class="fas fa-save"></i>
                             Save
                         </button>
-                        <a href="{{ url('/master_data_pemda') }}" class="btn btn-block btn-primary btn-cons m-b-10"><i class="fas fa-arrow-left"></i> Cancel</a>
+                        <a href="{{ url('/province') }}" class="btn btn-block btn-primary btn-cons m-b-10"><i class="fas fa-arrow-left"></i> Cancel</a>
                     </div>
                 </div>
             </div>
