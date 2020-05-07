@@ -6,7 +6,8 @@
 @section('content')
     <div class="register-container full-height sm-p-t-30">
       <div class="d-flex justify-content-center flex-column full-height ">
-        <h1>Register</h1>
+
+        <h1>REFINA - Register</h1>
         <p>
           Formulir pendaftaran user pemda baru
         </p>
@@ -49,14 +50,20 @@
           <div class="row">
             <div class="col-md-12">
               <div class="form-group form-group-default">
-                <label>No P PIC/Contact Person</label>
+                <label>Nomor HP PIC/Contact Person</label>
                 <input type="text" name="uname" placeholder="" class="form-control" required>
               </div>
             </div>
           </div>
-          <button aria-label="" class="btn btn-primary btn-cons m-t-10" type="submit">Buat Akun Baru</button>
+          <div class="row">
+            <div class="col-md-6">
+            </div>
+            <div class="col-md-6">
+                <button aria-label="" class="btn btn-cons m-t-10" type="submit">Login</button>
+                <button aria-label="" class="btn btn-primary btn-cons m-t-10" type="submit">Buat Akun Baru</button>
+            </div>
+          </div>
           <br>
-          <a href="/" class="text-info">Login</a>
         </form>
       </div>
     </div>
