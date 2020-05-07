@@ -111,8 +111,8 @@
                             </td>
                             <td class="v-align-middle">
                                <div class="btn-group">
-                                  <a href="/master_data_pemda/1" class="btn btn-info"><i class="fas fa-eye"></i></a>
-                                  <a href="/master_data_pemda/edit/1" class="btn btn-success"><i class="fas fa-pencil-alt"></i></a>
+                                  <a href="/master_data_pemda/1" class="btn btn-info"><i class="fas fa-eye"></i></a>&nbsp;
+                                  <a href="/master_data_pemda/edit/1" class="btn btn-success"><i class="fas fa-pencil-alt"></i></a>&nbsp;
                                   <a href="#modalDelete" data-toggle="modal" data-record-id="1" data-record-name="" class="btn btn-danger">
                                   <i class="fas fa-trash-alt"></i>
                                   </a>

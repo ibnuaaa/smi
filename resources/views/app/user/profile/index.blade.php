@@ -25,36 +25,12 @@
                     <div class="row">
                         <div class="col-3">
                             <div class="form-group">
-                                <label>Nama Satker</label>
-                            </div>
-                        </div>
-                        <div class="col-9">
-                            <div class="form-group form-group-default">
-                                {{ $data->satker }}
-                            </div>
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="col-3">
-                            <div class="form-group">
-                                <label>Nama Pejabat</label>
+                                <label>Nama</label>
                             </div>
                         </div>
                         <div class="col-9">
                             <div class="form-group form-group-default">
                                 {{ $data->name }}
-                            </div>
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="col-3">
-                            <div class="form-group">
-                                <label>Golongan</label>
-                            </div>
-                        </div>
-                        <div class="col-9">
-                            <div class="form-group form-group-default">
-                                {{ $data->golongan }}
                             </div>
                         </div>
                     </div>
@@ -67,18 +43,6 @@
                         <div class="col-9">
                             <div class="form-group form-group-default">
                                 <?php echo $data->position['name']; ?>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="col-3">
-                            <div class="form-group">
-                                <label>NIP</label>
-                            </div>
-                        </div>
-                        <div class="col-9">
-                            <div class="form-group form-group-default">
-                                {{ $data->username }}
                             </div>
                         </div>
                     </div>

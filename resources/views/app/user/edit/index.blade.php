@@ -16,24 +16,8 @@
                     <div class="card-body">
                         <form autocomplete="off" id="editUserForm">
                             <div class="form-group form-group-default required ">
-                                <label>Nama Satker</label>
+                                <label>Nama</label>
                                 <input name="satker" value="{{ $data['satker'] }}" class="form-control" type="text" required>
-                            </div>
-                            <div class="form-group form-group-default required ">
-                                <label>Nama Pejabat</label>
-                                <input name="name" value="{{ $data['name'] }}" class="form-control" type="text" required>
-                            </div>
-                            <div class="form-group form-group-default required ">
-                                <label>Golongan</label>
-                                <input name="golongan" value="{{ $data['golongan'] }}" class="form-control" type="text" required>
-                            </div>
-                            <div class="form-group form-group-default required ">
-                                <label>NIP</label>
-                                <input name="username" value="{{ $data['username'] }}" class="form-control" type="text" required>
-                            </div>
-                            <div class="form-group form-group-default required ">
-                                <label>NIK</label>
-                                <input name="nik" value="{{ $data['nik'] }}" class="form-control" type="text" required>
                             </div>
                             <div class="form-group form-group-default form-group-default-select2 required">
                                 <label class="">Jabatan</label>

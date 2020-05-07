@@ -16,22 +16,14 @@
                     <div class="card-body">
                         <form autocomplete="off" id="newUserForm">
                             <div class="form-group form-group-default required ">
-                                <label>Nama Satker</label>
+                                <label>Nama</label>
                                 <input name="satker" value="" class="form-control" type="text" required>
-                            </div>
-                            <div class="form-group form-group-default required ">
-                                <label>Nama Pejabat</label>
-                                <input name="name" value="" class="form-control" type="text" required>
                             </div>
                             <div class="form-group form-group-default required ">
                                 <label>Golongan</label>
                                 <input name="golongan" value="" class="form-control" type="text" required>
                             </div>
 
-                            <div class="form-group form-group-default required ">
-                                <label>NIP</label>
-                                <input name="username" class="form-control" type="text" required>
-                            </div>
                             <div class="form-group form-group-default required ">
                                 <label>Password</label>
                                 <input autocomplete="new-password" name="password" class="form-control" type="password" required>
