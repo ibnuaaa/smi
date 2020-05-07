@@ -17,7 +17,7 @@
                         <div class="col-sm-4">
                             <ul class="navbar-nav d-flex flex-row">
                                 <li class="nav-item">
-                                    <a href="{{ url('/master_data_pemda/new') }}"><i class="fas fa-plus"></i> Create</a>
+                                    <a href="{{ url('/kecamatan/new') }}"><i class="fas fa-plus"></i> Create</a>
                                 </li>
                             </ul>
                         </div>
@@ -36,7 +36,7 @@
         </nav>
         <div class="card card-white">
             <div class="card-header ">
-                <div class="card-title">Data Pemda</div><br>
+                <div class="card-title">Data Kecamatan</div><br>
             </div>
             <div class="card-body">
 
@@ -88,10 +88,13 @@
                                ID
                             </th>
                             <th style="position: relative;cursor: pointer" onClick="sortBy('title', '' )">
-                               Nama
+                               Provinsi
                             </th>
                             <th style="position: relative;cursor: pointer" onClick="sortBy('content', '' )">
-                               Deskripsi
+                               Kabupaten / Kota
+                            </th>
+                            <th style="position: relative;cursor: pointer" onClick="sortBy('content', '' )">
+                               Kecamatan
                             </th>
                             <th style="position: relative;cursor: pointer" onClick="sortBy('created_at', '' )">
                                created_at
@@ -107,18 +110,21 @@
                                <p>1</p>
                             </td>
                             <td class="v-align-middle ">
-                               <p>Aceh</p>
+                                <p>DKI JAKARTA</p>
                             </td>
                             <td class="v-align-middle ">
-                               <p>-</p>
+                                <p>JAKARTA SELATAN</p>
+                            </td>
+                            <td class="v-align-middle ">
+                               <p>MAMPANG PRAPATAN</p>
                             </td>
                             <td class="v-align-middle ">
                                <p></p>
                             </td>
                             <td class="v-align-middle">
                                <div class="btn-group">
-                                  <a href="/master_data_pemda/1" class="btn btn-info"><i class="fas fa-eye"></i></a>
-                                  <a href="/master_data_pemda/edit/1" class="btn btn-success"><i class="fas fa-pencil-alt"></i></a>
+                                  <a href="/kecamatan/1" class="btn btn-info"><i class="fas fa-eye"></i></a>
+                                  <a href="/kecamatan/edit/1" class="btn btn-success"><i class="fas fa-pencil-alt"></i></a>
                                   <a href="#modalDelete" data-toggle="modal" data-record-id="1" data-record-name="" class="btn btn-danger">
                                   <i class="fas fa-trash-alt"></i>
                                   </a>
