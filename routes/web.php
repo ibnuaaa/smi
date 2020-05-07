@@ -88,3 +88,23 @@ $router->get('/master_data_pemda', 'CMS\Sample\SampleController@MasterDataPemdaH
 $router->get('/master_data_pemda/new', 'CMS\Sample\SampleController@MasterDataPemdaNew');
 $router->get('/master_data_pemda/edit/{id}', 'CMS\Sample\SampleController@MasterDataPemdaEdit');
 $router->get('/master_data_pemda/{id}', 'CMS\Sample\SampleController@MasterDataPemdaDetail');
+
+$router->get('/province', 'CMS\Sample\SampleController@MasterDataProvinceHome');
+$router->get('/province/new', 'CMS\Sample\SampleController@MasterDataProvinceNew');
+$router->get('/province/edit/{id}', 'CMS\Sample\SampleController@MasterDataProvinceEdit');
+$router->get('/province/{id}', 'CMS\Sample\SampleController@MasterDataProvinceDetail');
+
+$router->get('/kabupaten', 'CMS\Sample\SampleController@MasterDataKabupatenHome');
+$router->get('/kabupaten/new', 'CMS\Sample\SampleController@MasterDataKabupatenNew');
+$router->get('/kabupaten/edit/{id}', 'CMS\Sample\SampleController@MasterDataKabupatenEdit');
+$router->get('/kabupaten/{id}', 'CMS\Sample\SampleController@MasterDataKabupatenDetail');
+
+$router->get('/kecamatan', 'CMS\Sample\SampleController@MasterDataKecamatanHome');
+$router->get('/kecamatan/new', 'CMS\Sample\SampleController@MasterDataKecamatanNew');
+$router->get('/kecamatan/edit/{id}', 'CMS\Sample\SampleController@MasterDataKecamatanEdit');
+$router->get('/kecamatan/{id}', 'CMS\Sample\SampleController@MasterDataKecamatanDetail');
+
+$router->get('/desa', 'CMS\Sample\SampleController@MasterDataDesaHome');
+$router->get('/desa/new', 'CMS\Sample\SampleController@MasterDataDesaNew');
+$router->get('/desa/edit/{id}', 'CMS\Sample\SampleController@MasterDataDesaEdit');
+$router->get('/desa/{id}', 'CMS\Sample\SampleController@MasterDataDesaDetail');

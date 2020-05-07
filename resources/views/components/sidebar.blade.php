@@ -56,19 +56,19 @@
                 <span class="icon-thumbnail"><i class="fas fa-chevron-right"></i></span>
                 <ul class="sub-menu">
                     <li>
-                        <a href="{!! url('/master_data/provinsi'); !!}">Provinsi</a>
+                        <a href="{!! url('/province'); !!}">Provinsi</a>
                         <span class="icon-thumbnail"><i class="fas fa-bezier-curve"></i></span>
                     </li>
                     <li>
-                        <a href="{!! url('/master_data/kabupaten'); !!}">Kabupaten / Kota</a>
+                        <a href="{!! url('/kabupaten'); !!}">Kabupaten / Kota</a>
                         <span class="icon-thumbnail"><i class="fas fa-bezier-curve"></i></span>
                     </li>
                     <li>
-                        <a href="{!! url('/master_data/kecamatan'); !!}">Kecamatan</a>
+                        <a href="{!! url('/kecamatan'); !!}">Kecamatan</a>
                         <span class="icon-thumbnail"><i class="fas fa-bezier-curve"></i></span>
                     </li>
                     <li>
-                        <a href="{!! url('/master_data/desa'); !!}">Desa</a>
+                        <a href="{!! url('/desa'); !!}">Desa</a>
                         <span class="icon-thumbnail"><i class="fas fa-bezier-curve"></i></span>
                     </li>
                 </ul>
