@@ -52,7 +52,7 @@
             </li>
 
 
-            @if (MyAccount()->position_id != 1)
+            @if (MyAccount()->position_id == 1)
             <li class="m-t-0 ">
                 <a href="{!! url('/master_data_pemda'); !!}" class="detailed">
                     <span class="title">Master Data Pemda</span>
