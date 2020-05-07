@@ -75,40 +75,40 @@
             </li>
             <li class="open active">
                 <a href="javascript:;">
-                    <span class="title">Report</span>
+                    <span class="title">LAPORAN</span>
                 </a>
                 <span class="icon-thumbnail"><i class="fas fa-chevron-right"></i></span>
                 <ul class="sub-menu">
                     <li>
-                        <a href="{!! url('/laporan_detail_debitur'); !!}">Laporan detail debitur</a>
+                        <a href="{!! url('/laporan_detail_debitur'); !!}">Detail Debitur</a>
                         <span class="icon-thumbnail"><i class="fas fa-book"></i></span>
                     </li>
                     <li>
-                        <a href="{!! url('/laporan_rekap_progress_permohonan_pemda'); !!}">Laporan rekap progress permohonan pemda</a>
+                        <a href="{!! url('/laporan_rekap_progress_permohonan_pemda'); !!}">Rekap Progress Permohonan PEMDA</a>
                         <span class="icon-thumbnail"><i class="fas fa-book"></i></span>
                     </li>
                     <li>
-                        <a href="{!! url('/laporan_rekap_sla_hari_kerja_permohonan'); !!}">Laporan rekap SLA hari kerja permohonan</a>
+                        <a href="{!! url('/laporan_rekap_sla_hari_kerja_permohonan'); !!}">Rekap SLA hari kerja permohonan</a>
                         <span class="icon-thumbnail"><i class="fas fa-book"></i></span>
                     </li>
                     <li>
-                        <a href="{!! url('/laporan_posisi_pinjaman'); !!}">Laporan posisi pinjaman</a>
+                        <a href="{!! url('/laporan_posisi_pinjaman'); !!}">Posisi Pinjaman</a>
                         <span class="icon-thumbnail"><i class="fas fa-book"></i></span>
                     </li>
                     <li>
-                        <a href="{!! url('/laporan_data_histori_pencairan'); !!}">Laporan data histori pencairan</a>
+                        <a href="{!! url('/laporan_data_histori_pencairan'); !!}">Data Histori Pencairan</a>
                         <span class="icon-thumbnail"><i class="fas fa-book"></i></span>
                     </li>
                     <li>
-                        <a href="{!! url('/laporan_data_histori_pembayaran'); !!}">Laporan data histori pembayaran</a>
+                        <a href="{!! url('/laporan_data_histori_pembayaran'); !!}">Data Histori Pembayaran</a>
                         <span class="icon-thumbnail"><i class="fas fa-book"></i></span>
                     </li>
                     <li>
-                        <a href="{!! url('/laporan_amortisasi_pinjaman_per_debitur'); !!}">Laporan amortisasi  pinjaman per debitur</a>
+                        <a href="{!! url('/laporan_amortisasi_pinjaman_per_debitur'); !!}">Amortisasi  Pinjaman per Debitur</a>
                         <span class="icon-thumbnail"><i class="fas fa-book"></i></span>
                     </li>
                     <li>
-                        <a href="{!! url('/laporan_maturity'); !!}">Laporan maturity  profile</a>
+                        <a href="{!! url('/laporan_maturity'); !!}">Maturity Profile</a>
                         <span class="icon-thumbnail"><i class="fas fa-book"></i></span>
                     </li>
                     <li>
