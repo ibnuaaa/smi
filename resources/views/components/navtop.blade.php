@@ -7,7 +7,7 @@
         <!-- END MOBILE SIDEBAR TOGGLE -->
         <div class="">
             <div class="brand inline  m-l-10 text-center">
-                <h1>SMI</h1>
+                <img src="/assets/img/logo.png" style="width:50px;">
             </div>
 
         </div>
