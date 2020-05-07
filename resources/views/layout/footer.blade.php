@@ -195,13 +195,13 @@
 
 
         function reloadNotification() {
-            if (getCookie('TokenType') != "" && getCookie('AccessToken')) {
-                getNotificationSidebar();
-            }
+            // if (getCookie('TokenType') != "" && getCookie('AccessToken')) {
+            //     getNotificationSidebar();
+            // }
 
-            setTimeout(function(){
-                reloadNotification();
-            }, 10000);
+            // setTimeout(function(){
+            //     reloadNotification();
+            // }, 10000);
         }
 
 
