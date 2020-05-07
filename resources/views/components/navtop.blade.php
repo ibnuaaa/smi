@@ -7,9 +7,13 @@
         <!-- END MOBILE SIDEBAR TOGGLE -->
         <div class="">
             <div class="brand inline  m-l-10 text-center">
+                <h1>REFINA</h1>
+            </div>
+        </div>
+        <div class="">
+            <div class="brand inline  m-l-10 text-center">
                 <img src="/assets/img/logo.png" style="width:50px;">
             </div>
-
         </div>
         <div class="d-flex align-items-center">
 

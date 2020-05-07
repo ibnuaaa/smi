@@ -6,7 +6,7 @@
 @section('content')
     <div class="container-fluid container-fixed-lg">
         <div class="row">
-            <div class="col-9">
+            <div class="col-12">
                 <div class="card card-default">
                     <div class="card-header ">
                         <div class="card-title">
@@ -17,36 +17,40 @@
                         <form autocomplete="off" id="newUserForm">
                             <div class="form-group form-group-default required ">
                                 <label>Pemerintah Daerah</label>
-                                <input name="title" value="" class="form-control" type="text" required>
+                                <input name="title" value="" class="form-control" type="text" required placeholder="Nama Proyek">
                             </div>
                             <div class="form-group form-group-default required ">
                                 <label>Nilai Permohonan</label>
-                                <input name="title" value="" class="form-control" type="text" required>
+                                <input name="title" value="" class="form-control" type="text" required placeholder="Nilai Permohonan">
                             </div>
                             <div class="form-group form-group-default required ">
                                 <label>Sektor</label>
-                                <input name="title" value="" class="form-control" type="text" required>
+                                <select id="cars" name="cars">
+                                    <option value="volvo">Jalan dan Jembatan</option>
+                                    <option value="saab">Pilihan sektor lain 1</option>
+                                    <option value="fiat">Pilihan sektor lain 2</option>
+                                    <option value="audi">DST.</option>
+                                </select>
+                                </div>
+                            <div class="form-group form-group-default required ">
+                                <label>Tenor (Dalam Bulan)</label>
+                                <input name="title" value="" class="form-control" type="text" required placeholder="Tenor">
                             </div>
                             <div class="form-group form-group-default required ">
-                                <label>Tenor</label>
-                                <input name="title" value="" class="form-control" type="text" required>
-                            </div>
-                            <div class="form-group form-group-default required ">
-                                <label>Masa Konstruksi</label>
-                                <input name="title" value="" class="form-control" type="text" required>
+                                <label>Masa Konstruksi (Dalam Bulan)</label>
+                                <input name="title" value="" class="form-control" type="text" required placeholder="Tenor">
                             </div>
                         </form>
                     </div>
                 </div>
             </div>
-            <div class="col-3">
+            <div class="col-12">
                 <div class="card card-default card-action">
                     <div class="card-body">
                         <button data-url-next="{{ UrlPrevious(url('/information')) }}" class="saveAction btn btn-block btn-success btn-cons m-b-10">
                             <i class="fas fa-save"></i>
-                            Save
+                            &nbsp;SUBMIT
                         </button>
-                        <a href="{{ url('/information') }}" class="btn btn-block btn-primary btn-cons m-b-10"><i class="fas fa-arrow-left"></i> Cancel</a>
                     </div>
                 </div>
             </div>
