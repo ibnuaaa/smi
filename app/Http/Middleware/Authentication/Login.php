@@ -137,12 +137,18 @@ class Login extends BaseMiddleware
         $ApiLog->save();
         */
 
-        if (($this->isWithEmail) && !$this->Model->User = User::where('email', $this->username)->where('status', 'active')->first()) {
+        if ($this->isWithEmail) {
+            $this->Model->User = User::where('email', $this->username)->first();
+        }else{
+            $this->Model->User = User::where('username', $this->username)->first();
+        }
+
+        if (($this->isWithEmail) && !$this->Model->User) {
             $this->Json::set('errors.username', [
                 trans('validation.login.invalid_email')
             ]);
             return false;
-        } elseif ((!$this->isWithEmail) && !$this->Model->User = User::where('username', $this->username)->where('status', 'active')->first()) {
+        } elseif ((!$this->isWithEmail) && !$this->Model->User) {
             $this->Json::set('errors.username', [
                 trans('validation.login.username')
             ]);
@@ -150,6 +156,11 @@ class Login extends BaseMiddleware
         } elseif (!Hash::check($this->password, $this->Model->User->password)) {
             $this->Json::set('errors.password', [
                 trans('validation.login.invalid_password')
+            ]);
+            return false;
+        } elseif ($this->Model->User->status != 'active') {
+            $this->Json::set('errors.need_approval', [
+                trans('validation.login.need_approval')
             ]);
             return false;
         }
