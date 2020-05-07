@@ -82,3 +82,6 @@ $router->get('/config', 'CMS\Config\ConfigController@Home');
 $router->get('/config/new', 'CMS\Config\ConfigController@New');
 $router->get('/config/edit/{id}', 'CMS\Config\ConfigController@Edit');
 $router->get('/config/{id}', 'CMS\Config\ConfigController@Detail');
+
+
+$router->get('/master_data_pemda', 'CMS\Sample\SampleController@Home');

@@ -12,7 +12,7 @@
                 		<h2 class="bold">
 	                    SELAMAT DATANG<br/>
 	                    DI<br/>
-	                     <font color="blue"><i>SMI</font> <br/>
+	                     <img src="/assets/img/logo.png"> <br/>
 	                  </h2>
 
                     <br/><br/>
