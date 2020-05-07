@@ -209,6 +209,8 @@
                     <div class="col-md-12">
                         <a href="#modalTahapan" data-toggle="modal" class="btn btn-success">UPDATE TAHAPAN PROYEK</a>&nbsp;
                         <a href="#modalFeedback" data-toggle="modal" class="btn btn-success">FEEDBACK</a>&nbsp;
+                        <a href="#" class="btn btn-success">Sync KEMENDAGRI</a>&nbsp;
+                        <a href="#" class="btn btn-success">Sync KEMENKEU</a>&nbsp;
                     </div>
                 </div>
                 @endif
