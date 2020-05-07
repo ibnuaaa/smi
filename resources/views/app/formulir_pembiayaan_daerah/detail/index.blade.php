@@ -204,13 +204,14 @@
                 <div class="row">
                     <br>&nbsp;
                 </div>
+                @if (MyAccount()->position_id == 1)
                 <div class="row">
                     <div class="col-md-12">
                         <a href="#modalTahapan" data-toggle="modal" class="btn btn-success">UPDATE TAHAPAN PROYEK</a>&nbsp;
                         <a href="#modalFeedback" data-toggle="modal" class="btn btn-success">FEEDBACK</a>&nbsp;
                     </div>
-
                 </div>
+                @endif
             </div>
 
         </div>
