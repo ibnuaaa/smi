@@ -148,7 +148,7 @@
                         <span class="icon-thumbnail"><i class="fas fa-bezier-curve"></i></span>
                     </li>
                     <li>
-                        <a href="{!! url('/position/paging'); !!}">Jabatan</a>
+                        <a href="{!! url('/position/paging'); !!}">Position (ROLE)</a>
                         <span class="icon-thumbnail"><i class="fas fa-bezier-curve"></i></span>
                     </li>
                     <li>
@@ -161,10 +161,6 @@
                     </li>
                     <li>
                         <a href="{!! url('/audit_trail'); !!}">Audit Trail</a>
-                        <span class="icon-thumbnail"><i class="fas fa-bezier-curve"></i></span>
-                    </li>
-                    <li>
-                        <a href="{!! url('/config_numbering'); !!}">Setting Numbering</a>
                         <span class="icon-thumbnail"><i class="fas fa-bezier-curve"></i></span>
                     </li>
                     <li>
