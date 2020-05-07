@@ -118,6 +118,22 @@ $router->get('/request_user/edit/{id}', 'CMS\Sample\SampleController@RequestUser
 $router->get('/request_user/{id}', 'CMS\Sample\SampleController@RequestUserDetail');
 
 
+$router->get('/sektor', 'CMS\Sample\SampleController@SektorHome');
+$router->get('/sektor/new', 'CMS\Sample\SampleController@SektorNew');
+$router->get('/sektor/edit/{id}', 'CMS\Sample\SampleController@SektorEdit');
+$router->get('/sektor/{id}', 'CMS\Sample\SampleController@SektorDetail');
+
+$router->get('/tahapan_project', 'CMS\Sample\SampleController@TahapanProjectHome');
+$router->get('/tahapan_project/new', 'CMS\Sample\SampleController@TahapanProjectNew');
+$router->get('/tahapan_project/edit/{id}', 'CMS\Sample\SampleController@TahapanProjectEdit');
+$router->get('/tahapan_project/{id}', 'CMS\Sample\SampleController@TahapanProjectDetail');
+
+$router->get('/jenis_dokumen', 'CMS\Sample\SampleController@JenisDokumenHome');
+$router->get('/jenis_dokumen/new', 'CMS\Sample\SampleController@JenisDokumenNew');
+$router->get('/jenis_dokumen/edit/{id}', 'CMS\Sample\SampleController@JenisDokumenEdit');
+$router->get('/jenis_dokumen/{id}', 'CMS\Sample\SampleController@JenisDokumenDetail');
+
+
 $router->get('/pembiayaan_daerah/{id}', 'CMS\Sample\SampleController@FormulirPembiayaanDaerahDetail');
 
 $router->get('/laporan_detail_debitur', 'CMS\Sample\SampleController@LaporanDetailDebitur');

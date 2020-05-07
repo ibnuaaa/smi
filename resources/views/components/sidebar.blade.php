@@ -65,6 +65,28 @@
 
             <li class="open active">
                 <a href="javascript:;">
+                    <span class="title">Setting</span>
+                </a>
+                <span class="icon-thumbnail"><i class="fas fa-chevron-right"></i></span>
+                <ul class="sub-menu">
+                    <li>
+                        <a href="{!! url('/sektor'); !!}">Sektor</a>
+                        <span class="icon-thumbnail"><i class="fas fa-air-freshener"></i></span>
+                    </li>
+                    <li>
+                        <a href="{!! url('/tahapan_project'); !!}">Tahapan Project</a>
+                        <span class="icon-thumbnail"><i class="fas fa-air-freshener"></i></span>
+                    </li>
+                    <li>
+                        <a href="{!! url('/jenis_dokumen'); !!}">Jenis Dokumen</a>
+                        <span class="icon-thumbnail"><i class="fas fa-air-freshener"></i></span>
+                    </li>
+                </ul>
+            </li>
+
+
+            <li class="open active">
+                <a href="javascript:;">
                     <span class="title">Master Data Lokasi</span>
                 </a>
                 <span class="icon-thumbnail"><i class="fas fa-chevron-right"></i></span>
@@ -87,6 +109,9 @@
                     </li>
                 </ul>
             </li>
+
+
+
             <li class="open active">
                 <a href="javascript:;">
                     <span class="title">LAPORAN</span>

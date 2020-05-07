@@ -157,6 +157,75 @@ class SampleController extends Controller
     }
 
 
+
+    // Sektor
+    public function SektorHome(Request $request)
+    {
+        return view('app.sektor.home.index');
+    }
+
+    public function SektorNew(Request $request)
+    {
+        return view('app.sektor.new.index');
+    }
+
+    public function SektorEdit(Request $request)
+    {
+        return view('app.sektor.new.index');
+    }
+
+    public function SektorDetail(Request $request)
+    {
+        return view('app.sektor.detail.index');
+    }
+
+
+    // tahapan project
+    public function TahapanProjectHome(Request $request)
+    {
+        return view('app.tahapan_project.home.index');
+    }
+
+    public function TahapanProjectNew(Request $request)
+    {
+        return view('app.tahapan_project.new.index');
+    }
+
+    public function TahapanProjectEdit(Request $request)
+    {
+        return view('app.tahapan_project.new.index');
+    }
+
+    public function TahapanProjectDetail(Request $request)
+    {
+        return view('app.tahapan_project.detail.index');
+    }
+
+    // Jenis Dokumen
+    public function JenisDokumenHome(Request $request)
+    {
+        return view('app.jenis_dokumen.home.index');
+    }
+
+    public function JenisDokumenNew(Request $request)
+    {
+        return view('app.jenis_dokumen.new.index');
+    }
+
+    public function JenisDokumenEdit(Request $request)
+    {
+        return view('app.jenis_dokumen.new.index');
+    }
+
+    public function JenisDokumenDetail(Request $request)
+    {
+        return view('app.jenis_dokumen.detail.index');
+    }
+
+
+
+
+
     // REPORTS
     public function LaporanDetailDebitur(Request $request)
     {
