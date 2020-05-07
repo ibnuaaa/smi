@@ -124,4 +124,55 @@ class SampleController extends Controller
         return view('app.master_data_desa.detail.index');
     }
 
+
+    // REPORTS
+    public function LaporanDetailDebitur(Request $request)
+    {
+        return view('app.report.laporan_detail_debitur');
+    }
+
+    public function LaporanRekapProgressPermohonanPemda(Request $request)
+    {
+        return view('app.report.laporan_rekap_progress_premohonan_pemda');
+    }
+
+    public function LaporanRekapSLAKariKerjaPermohonan(Request $request)
+    {
+        return view('app.report.laporan_rekap_sla_hari_kerja_permohonan');
+    }
+
+    public function LaporanPosisiPinjaman(Request $request)
+    {
+        return view('app.report.laporan_posisi_pinjaman');
+    }
+
+    public function LaporanDataHistoriPencairan(Request $request)
+    {
+        return view('app.report.laporan_data_histori_pencairan');
+    }
+
+    public function LaporanDataHistoriPembayaran(Request $request)
+    {
+        return view('app.report.laporan_data_histori_pembayaran');
+    }
+    public function LaporanAmortisasiPinjamanPerDebitur(Request $request)
+    {
+        return view('app.report.laporan_amortisasi_pinjaman_per_debitur');
+    }
+
+    public function LaporanMaturity(Request $request)
+    {
+        return view('app.report.laporan_maturity');
+    }
+
+    public function CustomReportA(Request $request)
+    {
+        return view('app.report.custom_report_a');
+    }
+
+    public function CustomReportB(Request $request)
+    {
+        return view('app.report.custom_report_b');
+    }
+
 }

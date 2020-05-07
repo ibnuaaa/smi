@@ -84,7 +84,7 @@
                         <span class="icon-thumbnail"><i class="fas fa-bezier-curve"></i></span>
                     </li>
                     <li>
-                        <a href="{!! url('/laporan_rekap_progress_premohonan_pemda'); !!}">Laporan rekap progress permohonan pemda</a>
+                        <a href="{!! url('/laporan_rekap_progress_permohonan_pemda'); !!}">Laporan rekap progress permohonan pemda</a>
                         <span class="icon-thumbnail"><i class="fas fa-bezier-curve"></i></span>
                     </li>
                     <li>
