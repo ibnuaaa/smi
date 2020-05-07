@@ -39,14 +39,14 @@
                 <a href="{!! url('/'); !!}" class="detailed">
                     <span class="title">Dashboard</span>
                 </a>
-                <span class="icon-thumbnail"><i class="fas fa-bezier-curve"></i></span>
+                <span class="icon-thumbnail"><i class="fas fa-home"></i></span>
             </li>
 
-            <li class="m-t-30 ">
+            <li class="m-t-0 ">
                 <a href="{!! url('/master_data_pemda'); !!}" class="detailed">
                     <span class="title">Master Data Pemda</span>
                 </a>
-                <span class="icon-thumbnail"><i class="fas fa-bezier-curve"></i></span>
+                <span class="icon-thumbnail"><i class="fas fa-address-card"></i></span>
             </li>
 
             <li class="open active">
@@ -57,19 +57,19 @@
                 <ul class="sub-menu">
                     <li>
                         <a href="{!! url('/province'); !!}">Provinsi</a>
-                        <span class="icon-thumbnail"><i class="fas fa-bezier-curve"></i></span>
+                        <span class="icon-thumbnail"><i class="fas fa-air-freshener"></i></span>
                     </li>
                     <li>
                         <a href="{!! url('/kabupaten'); !!}">Kabupaten / Kota</a>
-                        <span class="icon-thumbnail"><i class="fas fa-bezier-curve"></i></span>
+                        <span class="icon-thumbnail"><i class="fas fa-air-freshener"></i></span>
                     </li>
                     <li>
                         <a href="{!! url('/kecamatan'); !!}">Kecamatan</a>
-                        <span class="icon-thumbnail"><i class="fas fa-bezier-curve"></i></span>
+                        <span class="icon-thumbnail"><i class="fas fa-air-freshener"></i></span>
                     </li>
                     <li>
                         <a href="{!! url('/desa'); !!}">Desa</a>
-                        <span class="icon-thumbnail"><i class="fas fa-bezier-curve"></i></span>
+                        <span class="icon-thumbnail"><i class="fas fa-air-freshener"></i></span>
                     </li>
                 </ul>
             </li>
@@ -81,43 +81,43 @@
                 <ul class="sub-menu">
                     <li>
                         <a href="{!! url('/laporan_detail_debitur'); !!}">Laporan detail debitur</a>
-                        <span class="icon-thumbnail"><i class="fas fa-bezier-curve"></i></span>
+                        <span class="icon-thumbnail"><i class="fas fa-book"></i></span>
                     </li>
                     <li>
                         <a href="{!! url('/laporan_rekap_progress_permohonan_pemda'); !!}">Laporan rekap progress permohonan pemda</a>
-                        <span class="icon-thumbnail"><i class="fas fa-bezier-curve"></i></span>
+                        <span class="icon-thumbnail"><i class="fas fa-book"></i></span>
                     </li>
                     <li>
                         <a href="{!! url('/laporan_rekap_sla_hari_kerja_permohonan'); !!}">Laporan rekap SLA hari kerja permohonan</a>
-                        <span class="icon-thumbnail"><i class="fas fa-bezier-curve"></i></span>
+                        <span class="icon-thumbnail"><i class="fas fa-book"></i></span>
                     </li>
                     <li>
                         <a href="{!! url('/laporan_posisi_pinjaman'); !!}">Laporan posisi pinjaman</a>
-                        <span class="icon-thumbnail"><i class="fas fa-bezier-curve"></i></span>
+                        <span class="icon-thumbnail"><i class="fas fa-book"></i></span>
                     </li>
                     <li>
                         <a href="{!! url('/laporan_data_histori_pencairan'); !!}">Laporan data histori pencairan</a>
-                        <span class="icon-thumbnail"><i class="fas fa-bezier-curve"></i></span>
+                        <span class="icon-thumbnail"><i class="fas fa-book"></i></span>
                     </li>
                     <li>
                         <a href="{!! url('/laporan_data_histori_pembayaran'); !!}">Laporan data histori pembayaran</a>
-                        <span class="icon-thumbnail"><i class="fas fa-bezier-curve"></i></span>
+                        <span class="icon-thumbnail"><i class="fas fa-book"></i></span>
                     </li>
                     <li>
                         <a href="{!! url('/laporan_amortisasi_pinjaman_per_debitur'); !!}">Laporan amortisasi  pinjaman per debitur</a>
-                        <span class="icon-thumbnail"><i class="fas fa-bezier-curve"></i></span>
+                        <span class="icon-thumbnail"><i class="fas fa-book"></i></span>
                     </li>
                     <li>
                         <a href="{!! url('/laporan_maturity'); !!}">Laporan maturity  profile</a>
-                        <span class="icon-thumbnail"><i class="fas fa-bezier-curve"></i></span>
+                        <span class="icon-thumbnail"><i class="fas fa-book"></i></span>
                     </li>
                     <li>
                         <a href="{!! url('/custom_report_a'); !!}">Custom Report A</a>
-                        <span class="icon-thumbnail"><i class="fas fa-bezier-curve"></i></span>
+                        <span class="icon-thumbnail"><i class="fas fa-book"></i></span>
                     </li>
                     <li>
                         <a href="{!! url('/custom_report_b'); !!}">Custom Report B</a>
-                        <span class="icon-thumbnail"><i class="fas fa-bezier-curve"></i></span>
+                        <span class="icon-thumbnail"><i class="fas fa-book"></i></span>
                     </li>
                 </ul>
             </li>
