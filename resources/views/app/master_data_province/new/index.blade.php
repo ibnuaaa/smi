@@ -28,9 +28,9 @@
                     <div class="card-body">
                         <button data-url-next="{{ UrlPrevious(url('/province')) }}" class="saveAction btn btn-block btn-success btn-cons m-b-10">
                             <i class="fas fa-save"></i>
-                            Save
+                            &nbsp;Save
                         </button>
-                        <a href="{{ url('/province') }}" class="btn btn-block btn-primary btn-cons m-b-10"><i class="fas fa-arrow-left"></i> Cancel</a>
+                        <a href="{{ url('/province') }}" class="btn btn-block btn-danger btn-cons m-b-10"><i class="fas fa-arrow-left"></i> &nbsp;Cancel</a>
                     </div>
                 </div>
             </div>
