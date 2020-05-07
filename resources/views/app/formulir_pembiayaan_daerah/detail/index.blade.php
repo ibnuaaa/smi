@@ -197,12 +197,17 @@
                     </div>
                 </div>
                 <div class="row">
+                    <div class="col-md-12">
+                        <h2>History Feedback</h2>
+                    </div>
+                </div>
+                <div class="row">
                     <br>&nbsp;
                 </div>
                 <div class="row">
                     <div class="col-md-12">
-                        <a class="btn btn-success" href="#">UPDATE TAHAPAN PROYEK</a>
-                        <a class="btn btn-success" href="#">FEEDBACK</a>
+                        <a href="#modalTahapan" data-toggle="modal" class="btn btn-success">UPDATE TAHAPAN PROYEK</a>&nbsp;
+                        <a href="#modalFeedback" data-toggle="modal" class="btn btn-success">FEEDBACK</a>&nbsp;
                     </div>
 
                 </div>
@@ -210,6 +215,74 @@
 
         </div>
 
+    </div>
+
+    <div class="modal fade slide-up disable-scroll" id="modalTahapan" tabindex="-1" role="dialog" aria-hidden="false">
+        <div class="modal-dialog modal-md">
+            <div class="modal-content-wrapper">
+                <div class="modal-content">
+                    <div class="modal-header clearfix text-left">
+                        <button type="button" class="close" data-dismiss="modal" aria-hidden="true"><i class="pg-close fs-14"></i>
+                        </button>
+                        <h5>Update Tahapan Project <span class="semi-bold"></span>
+                        <select id="cars" name="cars">
+                            <option value="volvo">Tahapan 1</option>
+                            <option value="saab">Tahapan 2</option>
+                            <option value="fiat">Tahapan 3</option>
+                        </select>
+                        <br>
+                        <br>&nbsp;
+                    </div>
+                    <div class="modal-body">
+                        <div class="row">
+                            <div class="col-md-8">
+                                <button id="deleteAction" class="btn btn-cons m-b-10">
+                                    <i class="fas fa-times"></i>&nbsp;&nbsp; Cancel
+                                </button>
+                            </div>
+                            <div class="col-md-4">
+                                <button id="deleteAction" class="btn btn-success btn-cons m-b-10">
+                                    <i class="fas fa-check"></i> &nbsp;&nbsp;Yes
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade slide-up disable-scroll" id="modalFeedback" tabindex="-1" role="dialog" aria-hidden="false">
+        <div class="modal-dialog modal-md">
+            <div class="modal-content-wrapper">
+                <div class="modal-content">
+                    <div class="modal-header clearfix text-left">
+                        <button type="button" class="close" data-dismiss="modal" aria-hidden="true"><i class="pg-close fs-14"></i>
+                        </button>
+                        <h5>Masukkan FEEDBACK <span class="semi-bold"></span></h5>
+                        <div class="form-group form-group-default required ">
+                            <label>Feedback</label>
+                            <input name="title" value="" class="form-control" type="text" required>
+                        </div>
+                        <br>
+                        <br>&nbsp;
+                    </div>
+                    <div class="modal-body">
+                        <div class="row">
+                            <div class="col-md-8">
+                                <button id="deleteAction" class="btn btn-cons m-b-10">
+                                    <i class="fas fa-times"></i>&nbsp;&nbsp; Cancel
+                                </button>
+                            </div>
+                            <div class="col-md-4">
+                                <button id="deleteAction" class="btn btn-success btn-cons m-b-10">
+                                    <i class="fas fa-check"></i> &nbsp;&nbsp;Yes
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
 @endsection
 
