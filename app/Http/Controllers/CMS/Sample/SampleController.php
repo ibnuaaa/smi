@@ -18,9 +18,24 @@ use Illuminate\Support\Facades\Auth;
 
 class SampleController extends Controller
 {
-    public function MasterDataPemda(Request $request)
+    public function MasterDataPemdaHome(Request $request)
     {
         return view('app.master_data_pemda.home.index');
+    }
+
+    public function MasterDataPemdaNew(Request $request)
+    {
+        return view('app.master_data_pemda.new.index');
+    }
+
+    public function MasterDataPemdaEdit(Request $request)
+    {
+        return view('app.master_data_pemda.new.index');
+    }
+
+    public function MasterDataPemdaDetail(Request $request)
+    {
+        return view('app.master_data_pemda.detail.index');
     }
 
 }

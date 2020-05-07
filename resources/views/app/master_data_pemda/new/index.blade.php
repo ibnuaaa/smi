@@ -10,7 +10,7 @@
                 <div class="card card-default">
                     <div class="card-header ">
                         <div class="card-title">
-                            New #information
+                            Data Pemda
                         </div>
                     </div>
                     <div class="card-body">
@@ -30,11 +30,11 @@
             <div class="col-3">
                 <div class="card card-default card-action">
                     <div class="card-body">
-                        <button data-url-next="{{ UrlPrevious(url('/information')) }}" class="saveAction btn btn-block btn-success btn-cons m-b-10">
+                        <button data-url-next="{{ UrlPrevious(url('/master_data_pemda')) }}" class="saveAction btn btn-block btn-success btn-cons m-b-10">
                             <i class="fas fa-save"></i>
                             Save
                         </button>
-                        <a href="{{ url('/information') }}" class="btn btn-block btn-primary btn-cons m-b-10"><i class="fas fa-arrow-left"></i> Cancel</a>
+                        <a href="{{ url('/master_data_pemda') }}" class="btn btn-block btn-primary btn-cons m-b-10"><i class="fas fa-arrow-left"></i> Cancel</a>
                     </div>
                 </div>
             </div>

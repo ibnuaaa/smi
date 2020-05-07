@@ -17,7 +17,7 @@
                         <div class="col-sm-4">
                             <ul class="navbar-nav d-flex flex-row">
                                 <li class="nav-item">
-                                    <a href="{{ url('/information/new') }}"><i class="fas fa-plus"></i> Create</a>
+                                    <a href="{{ url('/master_data_pemda/new') }}"><i class="fas fa-plus"></i> Create</a>
                                 </li>
                             </ul>
                         </div>
