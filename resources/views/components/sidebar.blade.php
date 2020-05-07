@@ -42,176 +42,85 @@
                 <span class="icon-thumbnail"><i class="fas fa-bezier-curve"></i></span>
             </li>
 
-            @if (getPermissions('menu_tulis_surat')['checked'])
-            <li class="open active">
-                <a href="javascript:;">
-                    <span class="title">Tulis Surat</span>
+            <li class="m-t-30 ">
+                <a href="{!! url('/master_data_pemda'); !!}" class="detailed">
+                    <span class="title">Master Data Pemda</span>
                 </a>
-                <span class="icon-thumbnail"><i class="fas fa-chevron-right"></i></span>
-                <ul class="sub-menu">
-                    @if (getPermissions('menu_surat_internal')['checked'])
-                    <li>
-                        <a href="{!! url('/surat_internal'); !!}">Surat Internal</a>
-                        <span class="icon-thumbnail"><i class="fas fa-bezier-curve"></i></span>
-                    </li>
-                    @endif
-                    @if (getPermissions('menu_upload_surat_masuk')['checked'])
-                    <li>
-                        <a href="{!! url('/upload_surat_masuk'); !!}">Upload Surat Masuk</a>
-                        <span class="icon-thumbnail"><i class="fas fa-bezier-curve"></i></span>
-                    </li>
-                    @endif
-                </ul>
+                <span class="icon-thumbnail"><i class="fas fa-bezier-curve"></i></span>
             </li>
-            @endif
-            @if (getPermissions('menu_kotak_masuk')['checked'])
-            <li class="open active">
-                <a href="javascript:;">
-                    <span class="title">Kotak Masuk</span>
-                </a>
-                <span class="icon-thumbnail"><i class="fas fa-chevron-right"></i></span>
-                <ul class="sub-menu">
-                    @if (getPermissions('menu_surat_masuk')['checked'])
-                    <li>
-                        <a href="{!! url('/surat_masuk'); !!}">
-                            Surat Masuk
-                            <span class="{{ (getMenuCounter('surat_masuk_count') > 0) ? 'show-notification-unread' : 'hide-notification' }}" id="surat_masuk_counter">
-                                {{getMenuCounter('surat_masuk_count')}}
-                            </span>
-                        </a>
-                        <span class="icon-thumbnail"><i class="fas fa-bezier-curve"></i></span>
-                    </li>
-                    @endif
-                    @if (getPermissions('menu_disposisi')['checked'])
-                    <li>
-                        <a href="{!! url('/disposisi'); !!}">
-                            Disposisi
-                        </a>
-                        <span class="icon-thumbnail"><i class="fas fa-bezier-curve"></i></span>
-                    </li>
-                    @endif
-                </ul>
-            </li>
-            @endif
-            @if (getPermissions('menu_kotak_keluar')['checked'])
-            <li class="open active">
-                <a href="javascript:;">
-                    <span class="title">Kotak Keluar</span>
-                </a>
-                <span class="icon-thumbnail"><i class="fas fa-chevron-right"></i></span>
-                <ul class="sub-menu">
-                    @if (getPermissions('menu_approval')['checked'])
-                    <li>
-                        <a href="{!! url('/surat_keluar'); !!}">
-                            Surat Keluar
-                        </a>
-                        <span class="icon-thumbnail"><i class="fas fa-bezier-curve"></i>
-                    </li>
-                    @endif
-                    @if (getPermissions('menu_approval')['checked'])
-                    <li>
-                        <a href="{!! url('/approval'); !!}">
-                            Approval
 
-                            <span class="{{ (getMenuCounter('unapproved_count') > 0) ? 'show-notification-unapproved' : 'hide-notification' }}" id="unapproved_counter">
-                                {{getMenuCounter('unapproved_count')}}
-                            </span>
-                        </a>
-                        <span class="icon-thumbnail"><i class="fas fa-bezier-curve"></i></span>
-                    </li>
-                    @endif
-                    @if (getPermissions('menu_mail_number_approval')['checked'])
-                    <li>
-                        <a href="{!! url('/approval_numbering'); !!}">
-                            Approval No Surat
-                            <span id="need_number_counter">
-                            </span>
-                        </a>
-                        <span class="icon-thumbnail"><i class="fas fa-bezier-curve"></i></span>
-                    </li>
-                    @endif
-                </ul>
-            </li>
-            @endif
-            @if (getPermissions('menu_user')['checked'])
             <li class="open active">
                 <a href="javascript:;">
-                    <span class="title">User</span>
+                    <span class="title">Master Data Lokasi</span>
                 </a>
                 <span class="icon-thumbnail"><i class="fas fa-chevron-right"></i></span>
                 <ul class="sub-menu">
-                    @if (getPermissions('menu_profil_user')['checked'])
                     <li>
-                        <a href="{!! url('/profile'); !!}">Profil User</a>
+                        <a href="{!! url('/master_data/provinsi'); !!}">Provinsi</a>
                         <span class="icon-thumbnail"><i class="fas fa-bezier-curve"></i></span>
                     </li>
-                    @endif
-                    @if (getPermissions('menu_jabatan')['checked'])
                     <li>
-                        <a href="{!! url('/position/paging'); !!}">Jabatan</a>
+                        <a href="{!! url('/master_data/kabupaten'); !!}">Kabupaten / Kota</a>
                         <span class="icon-thumbnail"><i class="fas fa-bezier-curve"></i></span>
                     </li>
-                    @endif
-                    @if (getPermissions('menu_notifikasi')['checked'])
                     <li>
-                        <a href="{!! url('/notifikasi'); !!}">
-                            Notifikasi
-                            <span class="show-notification-unread" id="notification_counter">
-                                0
-                            </span>
-                        </a>
+                        <a href="{!! url('/master_data/kecamatan'); !!}">Kecamatan</a>
                         <span class="icon-thumbnail"><i class="fas fa-bezier-curve"></i></span>
                     </li>
-                    @endif
-                    @if (getPermissions('menu_ganti_password')['checked'])
                     <li>
-                        <a href="{!! url('/change_password'); !!}">Ganti Password</a>
-                        <span class="icon-thumbnail"><i class="fas fa-bezier-curve"></i></span>
-                    </li>
-                    @endif
-                    @if (getPermissions('menu_semua_user')['checked'])
-                    <li>
-                        <a href="{!! url('/user'); !!}">Semua User</a>
-                        <span class="icon-thumbnail"><i class="fas fa-bezier-curve"></i></span>
-                    </li>
-                    @endif
-                    @if (getPermissions('menu_audit_trail')['checked'])
-                    <li>
-                        <a href="{!! url('/audit_trail'); !!}">Audit Trail</a>
-                        <span class="icon-thumbnail"><i class="fas fa-bezier-curve"></i></span>
-                    </li>
-                    @endif
-                    @if (getPermissions('menu_informasi')['checked'])
-                    <li>
-                        <a href="{!! url('/information'); !!}">Informasi</a>
-                        <span class="icon-thumbnail"><i class="fas fa-bezier-curve"></i></span>
-                    </li>
-                    @endif
-                    @if (getPermissions('menu_config_numbering')['checked'])
-                    <li>
-                        <a href="{!! url('/config_numbering'); !!}">Setting Numbering</a>
-                        <span class="icon-thumbnail"><i class="fas fa-bezier-curve"></i></span>
-                    </li>
-                    @endif
-                    @if (getPermissions('menu_mail_classification')['checked'])
-                    <li>
-                        <a href="{!! url('/mail_classification'); !!}">Klasifikasi Surat</a>
-                        <span class="icon-thumbnail"><i class="fas fa-bezier-curve"></i></span>
-                    </li>
-                    @endif
-                    @if (getPermissions('menu_disposition_follow_up')['checked'])
-                    <li>
-                        <a href="{!! url('/disposition_follow_up'); !!}">Tindak Lanjut Disposisi</a>
-                        <span class="icon-thumbnail"><i class="fas fa-bezier-curve"></i></span>
-                    </li>
-                    @endif
-                    <li>
-                        <a href="{!! url('/config'); !!}">Setting</a>
+                        <a href="{!! url('/master_data/desa'); !!}">Desa</a>
                         <span class="icon-thumbnail"><i class="fas fa-bezier-curve"></i></span>
                     </li>
                 </ul>
             </li>
-            @endif
+            <li class="open active">
+                <a href="javascript:;">
+                    <span class="title">Report</span>
+                </a>
+                <span class="icon-thumbnail"><i class="fas fa-chevron-right"></i></span>
+                <ul class="sub-menu">
+                    <li>
+                        <a href="{!! url('/master_data/provinsi'); !!}">Laporan detail debitur</a>
+                        <span class="icon-thumbnail"><i class="fas fa-bezier-curve"></i></span>
+                    </li>
+                    <li>
+                        <a href="{!! url('/master_data/kabupaten'); !!}">Laporan rekap progress permohonan pemda</a>
+                        <span class="icon-thumbnail"><i class="fas fa-bezier-curve"></i></span>
+                    </li>
+                    <li>
+                        <a href="{!! url('/master_data/kecamatan'); !!}">Laporan rekap SLA hari kerja permohonan</a>
+                        <span class="icon-thumbnail"><i class="fas fa-bezier-curve"></i></span>
+                    </li>
+                    <li>
+                        <a href="{!! url('/master_data/desa'); !!}">Laporan posisi  pinjaman</a>
+                        <span class="icon-thumbnail"><i class="fas fa-bezier-curve"></i></span>
+                    </li>
+                    <li>
+                        <a href="{!! url('/master_data/desa'); !!}">Laporan data histori pencairan</a>
+                        <span class="icon-thumbnail"><i class="fas fa-bezier-curve"></i></span>
+                    </li>
+                    <li>
+                        <a href="{!! url('/master_data/desa'); !!}">Laporan data histori pembayaran</a>
+                        <span class="icon-thumbnail"><i class="fas fa-bezier-curve"></i></span>
+                    </li>
+                    <li>
+                        <a href="{!! url('/master_data/desa'); !!}">Laporan amortisasi  pinjaman per debitur</a>
+                        <span class="icon-thumbnail"><i class="fas fa-bezier-curve"></i></span>
+                    </li>
+                    <li>
+                        <a href="{!! url('/master_data/desa'); !!}">Laporan maturity  profile</a>
+                        <span class="icon-thumbnail"><i class="fas fa-bezier-curve"></i></span>
+                    </li>
+                    <li>
+                        <a href="{!! url('/master_data/desa'); !!}">Custom Report A</a>
+                        <span class="icon-thumbnail"><i class="fas fa-bezier-curve"></i></span>
+                    </li>
+                    <li>
+                        <a href="{!! url('/master_data/desa'); !!}">Custom Report B</a>
+                        <span class="icon-thumbnail"><i class="fas fa-bezier-curve"></i></span>
+                    </li>
+                </ul>
+            </li>
             <li class="open active">
                 <a href="{!! url('/logout'); !!}" class="detailed">
                     <span class="title">Logout</span>
