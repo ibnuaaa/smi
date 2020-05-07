@@ -25,6 +25,11 @@ class SampleController extends Controller
         return view('app.formulir_pembiayaan_daerah.new.index');
     }
 
+    public function FormulirPembiayaanDaerahDetail(Request $request)
+    {
+        return view('app.formulir_pembiayaan_daerah.detail.index');
+    }
+
     // MASTER DATA PEMDA
     public function MasterDataPemdaHome(Request $request)
     {

@@ -1,6 +1,6 @@
 @extends('layout.app')
 
-@section('title', 'Information')
+@section('title', 'Formulir Pembiayaan Daerah')
 @section('bodyClass', 'fixed-header menu-pin menu-behind')
 
 @section('content')

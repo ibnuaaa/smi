@@ -112,6 +112,7 @@ $router->get('/desa/new', 'CMS\Sample\SampleController@MasterDataDesaNew');
 $router->get('/desa/edit/{id}', 'CMS\Sample\SampleController@MasterDataDesaEdit');
 $router->get('/desa/{id}', 'CMS\Sample\SampleController@MasterDataDesaDetail');
 
+$router->get('/pembiayaan_daerah/{id}', 'CMS\Sample\SampleController@FormulirPembiayaanDaerahDetail');
 
 $router->get('/laporan_detail_debitur', 'CMS\Sample\SampleController@LaporanDetailDebitur');
 $router->get('/laporan_rekap_progress_permohonan_pemda', 'CMS\Sample\SampleController@LaporanRekapProgressPermohonanPemda');
