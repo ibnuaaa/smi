@@ -84,6 +84,9 @@ $router->get('/config/edit/{id}', 'CMS\Config\ConfigController@Edit');
 $router->get('/config/{id}', 'CMS\Config\ConfigController@Detail');
 
 
+$router->get('/formulir_pembiayaan_daerah', 'CMS\Sample\SampleController@FormulirPembiayaanDaerah');
+
+
 $router->get('/master_data_pemda', 'CMS\Sample\SampleController@MasterDataPemdaHome');
 $router->get('/master_data_pemda/new', 'CMS\Sample\SampleController@MasterDataPemdaNew');
 $router->get('/master_data_pemda/edit/{id}', 'CMS\Sample\SampleController@MasterDataPemdaEdit');

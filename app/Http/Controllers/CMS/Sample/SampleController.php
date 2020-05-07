@@ -19,6 +19,12 @@ use Illuminate\Support\Facades\Auth;
 class SampleController extends Controller
 {
 
+    //Formulir Pembiayaan Daerah
+    public function FormulirPembiayaanDaerah(Request $request)
+    {
+        return view('app.formulir_pembiayaan_daerah.new.index');
+    }
+
     // MASTER DATA PEMDA
     public function MasterDataPemdaHome(Request $request)
     {

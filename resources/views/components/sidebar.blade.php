@@ -42,6 +42,13 @@
                 <span class="icon-thumbnail"><i class="fas fa-home"></i></span>
             </li>
 
+            <li class="m-t-30 ">
+                <a href="{!! url('/formulir_pembiayaan_daerah'); !!}" class="detailed">
+                    <span class="title">Formulir Pembiayaan <br>Daerah</span>
+                </a>
+                <span class="icon-thumbnail"><i class="fas fa-file"></i></span>
+            </li>
+
             <li class="m-t-0 ">
                 <a href="{!! url('/master_data_pemda'); !!}" class="detailed">
                     <span class="title">Master Data Pemda</span>
