@@ -10,13 +10,13 @@
                 <div class="card card-default">
                     <div class="card-header ">
                         <div class="card-title">
-                            Data Provinsi
+                            Data Sektor
                         </div>
                     </div>
                     <div class="card-body">
                         <form autocomplete="off" id="newUserForm">
                             <div class="form-group form-group-default required ">
-                                <label>Provinsi</label>
+                                <label>Sektor</label>
                                 <input name="title" value="" class="form-control" type="text" required>
                             </div>
                         </form>
