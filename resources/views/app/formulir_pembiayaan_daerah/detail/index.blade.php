@@ -66,7 +66,7 @@
                                 <th>
                                     Nama Dokumen
                                 </th>
-                                <th>
+                                <th style="width:160px;">
                                     Status
                                 </th>
                                 <th style="width:400px;">

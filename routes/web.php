@@ -112,6 +112,12 @@ $router->get('/desa/new', 'CMS\Sample\SampleController@MasterDataDesaNew');
 $router->get('/desa/edit/{id}', 'CMS\Sample\SampleController@MasterDataDesaEdit');
 $router->get('/desa/{id}', 'CMS\Sample\SampleController@MasterDataDesaDetail');
 
+$router->get('/request_user', 'CMS\Sample\SampleController@RequestUserHome');
+$router->get('/request_user/new', 'CMS\Sample\SampleController@RequestUserNew');
+$router->get('/request_user/edit/{id}', 'CMS\Sample\SampleController@RequestUserEdit');
+$router->get('/request_user/{id}', 'CMS\Sample\SampleController@RequestUserDetail');
+
+
 $router->get('/pembiayaan_daerah/{id}', 'CMS\Sample\SampleController@FormulirPembiayaanDaerahDetail');
 
 $router->get('/laporan_detail_debitur', 'CMS\Sample\SampleController@LaporanDetailDebitur');

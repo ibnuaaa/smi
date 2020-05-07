@@ -135,6 +135,27 @@ class SampleController extends Controller
         return view('app.master_data_desa.detail.index');
     }
 
+    // Request User
+    public function RequestUserHome(Request $request)
+    {
+        return view('app.request_user.home.index');
+    }
+
+    public function RequestUserNew(Request $request)
+    {
+        return view('app.request_user.new.index');
+    }
+
+    public function RequestUserEdit(Request $request)
+    {
+        return view('app.request_user.new.index');
+    }
+
+    public function RequestUserDetail(Request $request)
+    {
+        return view('app.request_user.detail.index');
+    }
+
 
     // REPORTS
     public function LaporanDetailDebitur(Request $request)

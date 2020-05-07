@@ -56,6 +56,13 @@
                 <span class="icon-thumbnail"><i class="fas fa-address-card"></i></span>
             </li>
 
+            <li class="m-t-0 ">
+                <a href="{!! url('/request_user'); !!}" class="detailed">
+                    <span class="title">Request User</span>
+                </a>
+                <span class="icon-thumbnail"><i class="fas fa-file"></i></span>
+            </li>
+
             <li class="open active">
                 <a href="javascript:;">
                     <span class="title">Master Data Lokasi</span>
