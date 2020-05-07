@@ -4093,9 +4093,9 @@ fieldset[disabled] .btn-primary.active {
 
 .btn-success, .btn-success:focus {
   color: #fff;
-  background-color: #007be8;
-  border: 1px solid rgba(0, 87, 188, 0.5);
-  border-bottom: 1px solid rgba(6, 18, 35, 0.22);
+  background-color: #218838;
+  border: 1px solid #1e7e34;
+  border-bottom: 1px solid #1e7e34;
 }
 
 .btn-success.active, .btn-success:not(:disabled):not(.disabled):active, .btn-success.active:focus, .btn-success:not(:disabled):not(.disabled):active:focus, .btn-success:not(:disabled):not(.disabled):active:hover,

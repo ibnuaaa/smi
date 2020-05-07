@@ -128,6 +128,45 @@
                     </li>
                 </ul>
             </li>
+
+
+            <li class="open active">
+                <a href="javascript:;">
+                    <span class="title">User</span>
+                </a>
+                <span class="icon-thumbnail"><i class="fas fa-chevron-right"></i></span>
+                <ul class="sub-menu">
+                    <li>
+                        <a href="{!! url('/profile'); !!}">Profil User</a>
+                        <span class="icon-thumbnail"><i class="fas fa-bezier-curve"></i></span>
+                    </li>
+                    <li>
+                        <a href="{!! url('/position/paging'); !!}">Jabatan</a>
+                        <span class="icon-thumbnail"><i class="fas fa-bezier-curve"></i></span>
+                    </li>
+                    <li>
+                        <a href="{!! url('/change_password'); !!}">Ganti Password</a>
+                        <span class="icon-thumbnail"><i class="fas fa-bezier-curve"></i></span>
+                    </li>
+                    <li>
+                        <a href="{!! url('/user'); !!}">Semua User</a>
+                        <span class="icon-thumbnail"><i class="fas fa-bezier-curve"></i></span>
+                    </li>
+                    <li>
+                        <a href="{!! url('/audit_trail'); !!}">Audit Trail</a>
+                        <span class="icon-thumbnail"><i class="fas fa-bezier-curve"></i></span>
+                    </li>
+                    <li>
+                        <a href="{!! url('/config_numbering'); !!}">Setting Numbering</a>
+                        <span class="icon-thumbnail"><i class="fas fa-bezier-curve"></i></span>
+                    </li>
+                    <li>
+                        <a href="{!! url('/config'); !!}">Setting</a>
+                        <span class="icon-thumbnail"><i class="fas fa-bezier-curve"></i></span>
+                    </li>
+                </ul>
+            </li>
+
             <li class="open active">
                 <a href="{!! url('/logout'); !!}" class="detailed">
                     <span class="title">Logout</span>

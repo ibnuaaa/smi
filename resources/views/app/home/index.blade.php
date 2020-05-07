@@ -71,7 +71,7 @@
                                Tenor
                             </th>
                             <th style="position: relative;cursor: pointer" onClick="sortBy('created_at', '' )">
-                               Masa Konstruksi
+                               Status
                             </th>
                             <th style="position: relative;cursor: pointer" onClick="sortBy('created_at', '' )">
                                Action
@@ -96,7 +96,7 @@
                                <p>2 Tahun</p>
                             </td>
                             <td class="v-align-middle ">
-                               <p>2 Tahun</p>
+                               <label class="btn btn-warning btn-xs">Pending</label>
                             </td>
                             <td class="v-align-middle">
                                <div class="btn-group">
@@ -124,7 +124,35 @@
                                <p>2 Tahun</p>
                             </td>
                             <td class="v-align-middle ">
+                               <label class="btn btn-primary btn-xs">Approved</label>
+                            </td>
+                            <td class="v-align-middle">
+                               <div class="btn-group">
+                                  <a href="/master_data_pemda/1" class="btn btn-info"><i class="fas fa-eye"></i></a>
+                                  <a href="#modalDelete" data-toggle="modal" data-record-id="1" data-record-name="" class="btn btn-danger">
+                                  <i class="fas fa-trash-alt"></i>
+                                  </a>
+                               </div>
+                            </td>
+                         </tr>
+                         <tr>
+                            <td class="v-align-middle ">
+                               <p>3</p>
+                            </td>
+                            <td class="v-align-middle ">
+                               <p>Aceh</p>
+                            </td>
+                            <td class="v-align-middle ">
+                               <p>Rp 2.000.000,00</p>
+                            </td>
+                            <td class="v-align-middle ">
+                               <p>Tempat Ibadah</p>
+                            </td>
+                            <td class="v-align-middle ">
                                <p>2 Tahun</p>
+                            </td>
+                            <td class="v-align-middle ">
+                               <label class="btn btn-success btn-xs">Finish</label>
                             </td>
                             <td class="v-align-middle">
                                <div class="btn-group">
