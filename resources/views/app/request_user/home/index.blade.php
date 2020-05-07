@@ -68,9 +68,9 @@
                                Jabatan PIC
                             </th>
                             <th style="position: relative;cursor: pointer" onClick="sortBy('created_at', '' )">
-                               Email
+                               Status
                             </th>
-                            <th style="position: relative;cursor: pointer" onClick="sortBy('action', '' )">
+                            <th style="position: relative;cursor: pointer; width:200px;" onClick="sortBy('action', '' )">
                                action
                             </th>
                          </tr>
@@ -90,15 +90,13 @@
                                <p>Manager</p>
                             </td>
                             <td class="v-align-middle ">
-                               <label class="btn btn-warning">Pending</label>
+                               <label class="btn btn-warning btn-xs">Pending</label>
                             </td>
                             <td class="v-align-middle">
                                <div class="btn-group">
                                   <a href="/request_user/1" class="btn btn-info"><i class="fas fa-eye"></i></a>
-                                  <a href="#" class="btn btn-success">Approve</a>
-                                  <a href="#modalDelete" data-toggle="modal" data-record-id="1" data-record-name="" class="btn btn-danger">
-                                  <i class="fas fa-trash-alt"></i>
-                                  </a>
+                                  <a href="#modalApprove" data-toggle="modal" class="btn btn-success">Approve</a>
+                                  <a href="#modalDelete" data-toggle="modal" class="btn btn-danger">Delete</a>
                                </div>
                             </td>
                          </tr>
@@ -116,15 +114,13 @@
                                <p>Manager</p>
                             </td>
                             <td class="v-align-middle ">
-                               <label class="btn btn-success">Approved</label>
+                               <label class="btn btn-success btn-xs">Approved</label>
                             </td>
                             <td class="v-align-middle">
                                <div class="btn-group">
                                   <a href="/request_user/1" class="btn btn-info"><i class="fas fa-eye"></i></a>
-                                  <a href="#" class="btn btn-success">Approve</a>
-                                  <a href="#modalDelete" data-toggle="modal" data-record-id="1" data-record-name="" class="btn btn-danger">
-                                  <i class="fas fa-trash-alt"></i>
-                                  </a>
+                                  <a href="#modalApprove" data-toggle="modal" class="btn btn-success">Approve</a>
+                                  <a href="#modalDelete" data-toggle="modal" class="btn btn-danger">Delete</a>
                                </div>
                             </td>
                          </tr>
@@ -201,9 +197,42 @@
                     <div class="modal-body">
                         <div class="row">
                             <div class="col-md-8">
+                                <button id="deleteAction" class="btn btn-cons m-b-10">
+                                    <i class="fas fa-times"></i> &nbsp;&nbsp;Cancel
+                                </button>
                             </div>
-                            <div class="col-md-4 m-t-10 sm-m-t-10">
-                                <button id="deleteAction" class="btn btn-block btn-danger btn-cons m-b-10"><i class="fas fa-trash"></i> Yes Delete</button>
+                            <div class="col-md-4">
+                                <button id="deleteAction" class="btn btn-danger btn-cons m-b-10">
+                                    <i class="fas fa-trash"></i> &nbsp;&nbsp;Yes Delete
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade slide-up disable-scroll" id="modalApprove" tabindex="-1" role="dialog" aria-hidden="false">
+        <div class="modal-dialog modal-md">
+            <div class="modal-content-wrapper">
+                <div class="modal-content">
+                    <div class="modal-header clearfix text-left">
+                        <button type="button" class="close" data-dismiss="modal" aria-hidden="true"><i class="pg-close fs-14"></i>
+                        </button>
+                        <h5>Approve <span class="semi-bold">User</span></h5>
+                        <p class="p-b-10">Are you sure you want to approve this user ?</p>
+                    </div>
+                    <div class="modal-body">
+                        <div class="row">
+                            <div class="col-md-8">
+                                <button id="deleteAction" class="btn btn-cons m-b-10">
+                                    <i class="fas fa-times"></i>&nbsp;&nbsp; Cancel
+                                </button>
+                            </div>
+                            <div class="col-md-4">
+                                <button id="deleteAction" class="btn btn-success btn-cons m-b-10">
+                                    <i class="fas fa-check"></i> &nbsp;&nbsp;Yes Approve
+                                </button>
                             </div>
                         </div>
                     </div>
@@ -215,5 +244,5 @@
 @endsection
 
 @section('script')
-    @include('app.information.home.scripts.index')
+    @include('app.request_user.home.scripts.index')
 @endsection
