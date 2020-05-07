@@ -5,38 +5,9 @@
 
 @section('content')
     <div class="container-fluid container-fixed-lg">
-        <nav class="navbar navbar-default bg-transparent sm-padding-10 full-width p-t-0 p-b-0 m-b-0" role="navigation">
-            <div class="container-fluid full-width">
-                <div class="navbar-header text-center">
-                    <button type="button" class="navbar-toggle collapsed btn btn-link no-padding" data-toggle="collapse" data-target="#sub-nav">
-                        <i class="pg pg-more v-align-middle"></i>
-                    </button>
-                </div>
-                <div class="collapse navbar-collapse">
-                    <div class="row">
-                        <div class="col-sm-4">
-                            <ul class="navbar-nav d-flex flex-row">
-                                <li class="nav-item">
-                                    <a href="{{ url('/master_data_pemda/new') }}"><i class="fas fa-plus"></i> Create</a>
-                                </li>
-                            </ul>
-                        </div>
-                        <div class="col-sm-4">
-                            <ul class="navbar-nav d-flex flex-row">
-                            </ul>
-                        </div>
-                        <div class="col-sm-4">
-                            <ul class="navbar-nav d-flex flex-row justify-content-sm-end">
-                                <li class="nav-item"><a href="#" class="p-r-10" onclick="$.Pages.setFullScreen(document.querySelector('html'));"><i class="fa fa-expand"></i></a></li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </nav>
         <div class="card card-white">
             <div class="card-header ">
-                <div class="card-title">Data Pemda</div><br>
+                <div class="card-title">Laporan Rekap SLA hari kerja permohonan</div><br>
             </div>
             <div class="card-body">
 
@@ -68,7 +39,7 @@
                                <form action="/information">
                                <div class="input-group">
                                   <input  name="information-table-filter_search"
-                                     placeholder="Search... (Judul, Desk)"
+                                     placeholder="Search..."
                                      value=""
                                      class="form-control"
                                      type="text">
@@ -83,48 +54,7 @@
                    </div>
                    <table class="table table-hover table-condensed">
                       <thead>
-                         <tr>
-                            <th style="position: relative;cursor: pointer" onClick="sortBy('id', '' )">
-                               ID
-                            </th>
-                            <th style="position: relative;cursor: pointer" onClick="sortBy('title', '' )">
-                               Nama
-                            </th>
-                            <th style="position: relative;cursor: pointer" onClick="sortBy('content', '' )">
-                               Deskripsi
-                            </th>
-                            <th style="position: relative;cursor: pointer" onClick="sortBy('created_at', '' )">
-                               created_at
-                            </th>
-                            <th style="position: relative;cursor: pointer" onClick="sortBy('action', '' )">
-                               action
-                            </th>
-                         </tr>
-                      </thead>
-                      <tbody>
-                         <tr>
-                            <td class="v-align-middle ">
-                               <p>1</p>
-                            </td>
-                            <td class="v-align-middle ">
-                               <p>Aceh</p>
-                            </td>
-                            <td class="v-align-middle ">
-                               <p>-</p>
-                            </td>
-                            <td class="v-align-middle ">
-                               <p></p>
-                            </td>
-                            <td class="v-align-middle">
-                               <div class="btn-group">
-                                  <a href="/master_data_pemda/1" class="btn btn-info"><i class="fas fa-eye"></i></a>
-                                  <a href="/master_data_pemda/edit/1" class="btn btn-success"><i class="fas fa-pencil-alt"></i></a>
-                                  <a href="#modalDelete" data-toggle="modal" data-record-id="1" data-record-name="" class="btn btn-danger">
-                                  <i class="fas fa-trash-alt"></i>
-                                  </a>
-                               </div>
-                            </td>
-                         </tr>
+
 
                       </tbody>
                    </table>
