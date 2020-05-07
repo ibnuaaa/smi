@@ -10,18 +10,37 @@
                 <div class="card card-default">
                     <div class="card-header ">
                         <div class="card-title">
-                            Data Pemda
+                            Data Desa
                         </div>
                     </div>
                     <div class="card-body">
                         <form autocomplete="off" id="newUserForm">
                             <div class="form-group form-group-default required ">
-                                <label>Judul Informasi</label>
-                                <input name="title" value="" class="form-control" type="text" required>
+                                <label>Provinsi</label>
+                                <select id="cars" name="cars">
+                                    <option value="volvo">DKI JAKARTA</option>
+                                    <option value="saab">JAWA BARAT</option>
+                                    <option value="fiat">ACEH</option>
+                                </select>
                             </div>
                             <div class="form-group form-group-default required ">
-                                <label>Isi informasi</label>
-                                <div id="editor"></div>
+                                <label>Kabupaten / Kota</label>
+                                <select id="cars" name="cars">
+                                    <option value="volvo">JAKARTA SELATAN</option>
+                                    <option value="saab">JAKARTA UTARA</option>
+                                    <option value="fiat">JAKARTA PUSAT</option>
+                                </select>
+                            </div>
+                            <div class="form-group form-group-default required ">
+                                <label>Kecamatan</label>
+                                <select id="cars" name="cars">
+                                    <option value="volvo">Mampang Prapatan</option>
+                                    <option value="saab">Kalibata</option>
+                                </select>
+                            </div>
+                            <div class="form-group form-group-default required ">
+                                <label>Desa</label>
+                                <input name="title" value="" class="form-control" type="text" required>
                             </div>
                         </form>
                     </div>
@@ -30,11 +49,11 @@
             <div class="col-3">
                 <div class="card card-default card-action">
                     <div class="card-body">
-                        <button data-url-next="{{ UrlPrevious(url('/master_data_pemda')) }}" class="saveAction btn btn-block btn-success btn-cons m-b-10">
+                        <button data-url-next="{{ UrlPrevious(url('/desa')) }}" class="saveAction btn btn-block btn-success btn-cons m-b-10">
                             <i class="fas fa-save"></i>
-                            Save
+                            &nbsp;Save
                         </button>
-                        <a href="{{ url('/master_data_pemda') }}" class="btn btn-block btn-primary btn-cons m-b-10"><i class="fas fa-arrow-left"></i> Cancel</a>
+                        <a href="{{ url('/desa') }}" class="btn btn-block btn-danger btn-cons m-b-10"><i class="fas fa-arrow-left"></i>&nbsp;Cancel</a>
                     </div>
                 </div>
             </div>

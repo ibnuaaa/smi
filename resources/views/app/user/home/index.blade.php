@@ -25,11 +25,11 @@
                         </div>
                         <div class="col-sm-4">
                             <ul class="navbar-nav d-flex">
-                                <li class="nav-item">
+                                <!-- <li class="nav-item">
                                     <a href="#" onClick="return syncUsers();"><i class="fas fa-plus"></i>
                                         Sinkron Data
                                     </a>
-                                </li>
+                                </li> -->
                             </ul>
                         </div>
                         <div class="col-sm-4">
