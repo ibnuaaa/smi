@@ -35,14 +35,14 @@
     <div class="sidebar-menu">
         <!-- BEGIN SIDEBAR MENU ITEMS-->
         <ul class="menu-items">
-            <li class="m-t-30 ">
+            <li class="m-t-0 ">
                 <a href="{!! url('/'); !!}" class="detailed">
-                    <span class="title">Dashboard</span>
+                    <span class="title">Home</span>
                 </a>
                 <span class="icon-thumbnail"><i class="fas fa-home"></i></span>
             </li>
 
-            <li class="m-t-30 ">
+            <li class="m-t-0 ">
                 <a href="{!! url('/formulir_pembiayaan_daerah'); !!}" class="detailed">
                     <span class="title">Formulir Pembiayaan <br>Daerah</span>
                 </a>
