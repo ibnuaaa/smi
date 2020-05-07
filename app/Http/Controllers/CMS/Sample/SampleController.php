@@ -1,8 +1,6 @@
 <?php
 
-namespace App\Http\Controllers\CMS\Information;
-
-use App\Http\Controllers\Information\InformationBrowseController;
+namespace App\Http\Controllers\CMS\Sample;
 
 use Illuminate\Database\Eloquent\ModelNotFoundException;
 
@@ -22,7 +20,7 @@ class SampleController extends Controller
 {
     public function MasterDataPemda(Request $request)
     {
-        return view('app.master_data_pemda.home.index', $ParseData);
+        return view('app.master_data_pemda.home.index');
     }
 
 }
