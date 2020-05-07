@@ -16,7 +16,7 @@
                     <div class="card-body">
                         <form autocomplete="off" id="newUserForm">
                             <div class="form-group form-group-default required ">
-                                <label>Nama Provinsi</label>
+                                <label>Provinsi</label>
                                 <input name="title" value="" class="form-control" type="text" required>
                             </div>
                         </form>
